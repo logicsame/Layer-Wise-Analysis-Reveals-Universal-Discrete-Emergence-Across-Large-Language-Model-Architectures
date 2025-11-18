@@ -7,7 +7,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-project_name = "Layer-Wise-Emergence-Across-LLm"
+project_name = "Layer_Wise_Emergence-Across_LLm"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
