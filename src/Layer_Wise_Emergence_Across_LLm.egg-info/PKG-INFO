@@ -1,0 +1,42 @@
+Metadata-Version: 2.2
+Name: Layer_Wise_Emergence_Across_LLm
+Version: 1.0.0
+Summary: A framework that Analyzes Layer-Wise Emergence Across Large Language Model Architectures
+Home-page: https://github.com/logicsame/Layer-Wise-Analysis-Reveals-Universal-Discrete-Emergence-Across-Large-Language-Model-Architectures
+Author: logicsame
+Author-email: useforprofessional@gmail.com
+Project-URL: Bug Tracker, https://github.com/logicsame/Layer-Wise-Analysis-Reveals-Universal-Discrete-Emergence-Across-Large-Language-Model-Architectures/issues
+Keywords: large language model,compression,reasoning,robustness,intelligence framework
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=1.7.0
+Requires-Dist: numpy>=1.19.2
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Layer-Wise-Analysis-Reveals-Universal-Discrete-Emergence-Across-Large-Language-Model-Architectures
