@@ -1,0 +1,2 @@
+model,num_layers,crystallization_layer,crystallization_depth_pct,final_accuracy,early_sparsity,late_sparsity
+microsoft/phi-1_combined,25,3,12.0,0.999375,0.06842976888020834,0.0022532066932091344

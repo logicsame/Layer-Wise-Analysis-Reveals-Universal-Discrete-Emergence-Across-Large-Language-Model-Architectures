@@ -1,0 +1,161 @@
+{
+  "early_detection_samples": 400,
+  "advantage_layers": [
+    0,
+    1,
+    2
+  ],
+  "first_digit_success": 0.0,
+  "layer_breakdown": {
+    "0": {
+      "single_token_accuracy": 0.0,
+      "multi_token_accuracy": 0.7575,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.7575
+    },
+    "1": {
+      "single_token_accuracy": 0.195,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.8049999999999999
+    },
+    "2": {
+      "single_token_accuracy": 0.375,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.625
+    },
+    "3": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.0
+    },
+    "4": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.0
+    },
+    "5": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.0
+    },
+    "6": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.0
+    },
+    "7": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.8075,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.1925
+    },
+    "8": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.47,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.53
+    },
+    "9": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.555,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.44499999999999995
+    },
+    "10": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.905,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.09499999999999997
+    },
+    "11": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.5575,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.4425
+    },
+    "12": {
+      "single_token_accuracy": 0.9975,
+      "multi_token_accuracy": 0.37,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.6275000000000001
+    },
+    "13": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.3275,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.6725
+    },
+    "14": {
+      "single_token_accuracy": 0.9775,
+      "multi_token_accuracy": 0.3425,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.635
+    },
+    "15": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.7025,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.2975
+    },
+    "16": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.93,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.06999999999999995
+    },
+    "17": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.8175,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.1825
+    },
+    "18": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.79,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.20999999999999996
+    },
+    "19": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.78,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.21999999999999997
+    },
+    "20": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.965,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.03500000000000003
+    },
+    "21": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.8025,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.1975
+    },
+    "22": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.8,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.19999999999999996
+    },
+    "23": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.83,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.17000000000000004
+    },
+    "24": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.0
+    }
+  }
+}

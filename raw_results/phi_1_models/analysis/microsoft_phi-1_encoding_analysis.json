@@ -1,0 +1,152 @@
+{
+  "0": {
+    "expression_accuracy": 0.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "1": {
+    "expression_accuracy": 0.195,
+    "encoding_accuracy": 0.715,
+    "gap": 0.52,
+    "n_samples": 400
+  },
+  "2": {
+    "expression_accuracy": 0.375,
+    "encoding_accuracy": 0.4925,
+    "gap": 0.1175,
+    "n_samples": 400
+  },
+  "3": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "4": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "5": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "6": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "7": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "8": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "9": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "10": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "11": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "12": {
+    "expression_accuracy": 0.9975,
+    "encoding_accuracy": NaN,
+    "gap": NaN,
+    "n_samples": 400
+  },
+  "13": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "14": {
+    "expression_accuracy": 0.9775,
+    "encoding_accuracy": 0.9775,
+    "gap": 0.0,
+    "n_samples": 400
+  },
+  "15": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "16": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "17": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "18": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "19": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "20": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "21": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "22": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "23": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "24": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  }
+}
