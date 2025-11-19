@@ -5,13 +5,7 @@ import pandas as pd
 from typing import  List, Tuple, Optional, Any
 from transformers.utils import logging
 logging.set_verbosity_error()
-from validation.validator import ProbeResult
-from model_manager import SharedModelManager
-from validation.validator import MultiTaskValidator
-from probing.multi_token_probeer import MultiTokenProber
-from analysis.attention_analysis import EnhancedAttentionAnalyzer
-from linear_layer_probing import LinearLayerProber
-
+from Layer_Wise_Emergence_Across_LLm
 class LayerWiseProber:
     """Probe model capabilities at each layer"""
 
