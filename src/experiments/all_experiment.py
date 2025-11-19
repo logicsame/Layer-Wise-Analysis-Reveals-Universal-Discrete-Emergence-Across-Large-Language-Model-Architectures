@@ -1,3 +1,11 @@
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["TORCH_COMPILE_DISABLE"] = "1"  
+
+import torch
+torch._dynamo.config.suppress_errors = True
+torch._dynamo.disable()
+torch._dynamo.config.ignore_logger_methods = ["warning_once", "warning", "info", "debug"]
 from Layer_Wise_Emergence_Across_LLm.core.archaeologist import EmergenceArchaeologist
 from Layer_Wise_Emergence_Across_LLm.core.utils.calculate_path  import calculate_patch_layers
 import pandas as pd
