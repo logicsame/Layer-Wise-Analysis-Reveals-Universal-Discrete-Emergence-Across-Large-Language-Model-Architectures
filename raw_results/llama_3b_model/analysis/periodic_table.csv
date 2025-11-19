@@ -1,0 +1,2 @@
+model,num_layers,crystallization_layer,crystallization_depth_pct,final_accuracy,early_sparsity,late_sparsity
+meta-llama/Llama-3.2-3B-Instruct_combined,29,26,89.65517241379311,1.0,0.2280423700241815,0.027315863715277777
