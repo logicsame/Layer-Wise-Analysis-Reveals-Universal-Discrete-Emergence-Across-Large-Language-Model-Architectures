@@ -1,0 +1,196 @@
+{
+  "early_detection_samples": 318,
+  "advantage_layers": [
+    1,
+    2
+  ],
+  "first_digit_success": 0.0,
+  "layer_breakdown": {
+    "0": {
+      "single_token_accuracy": 0.0,
+      "multi_token_accuracy": 0.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.0
+    },
+    "1": {
+      "single_token_accuracy": 0.205,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.795
+    },
+    "2": {
+      "single_token_accuracy": 0.0,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 1.0
+    },
+    "3": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.0
+    },
+    "4": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.0
+    },
+    "5": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.5325,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.4675
+    },
+    "6": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.9875,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.012499999999999956
+    },
+    "7": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.7775,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.22250000000000003
+    },
+    "8": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.465,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.5349999999999999
+    },
+    "9": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.5325,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.4675
+    },
+    "10": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.415,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.585
+    },
+    "11": {
+      "single_token_accuracy": 0.9975,
+      "multi_token_accuracy": 0.47,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.5275000000000001
+    },
+    "12": {
+      "single_token_accuracy": 0.9875,
+      "multi_token_accuracy": 0.25,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.7375
+    },
+    "13": {
+      "single_token_accuracy": 0.99,
+      "multi_token_accuracy": 0.22,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.77
+    },
+    "14": {
+      "single_token_accuracy": 0.9875,
+      "multi_token_accuracy": 0.1125,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.875
+    },
+    "15": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.0025,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.9975
+    },
+    "16": {
+      "single_token_accuracy": 0.9525,
+      "multi_token_accuracy": 0.12,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.8325
+    },
+    "17": {
+      "single_token_accuracy": 0.9875,
+      "multi_token_accuracy": 0.25,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.7375
+    },
+    "18": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.2675,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.7324999999999999
+    },
+    "19": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.295,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.7050000000000001
+    },
+    "20": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.525,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.475
+    },
+    "21": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.41,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.5900000000000001
+    },
+    "22": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.0125,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.9875
+    },
+    "23": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.23,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.77
+    },
+    "24": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.2875,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.7125
+    },
+    "25": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.3425,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.6575
+    },
+    "26": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.3675,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.6325000000000001
+    },
+    "27": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.4925,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.5075000000000001
+    },
+    "28": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.4125,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.5875
+    },
+    "29": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 0.45,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": -0.55
+    },
+    "30": {
+      "single_token_accuracy": 1.0,
+      "multi_token_accuracy": 1.0,
+      "first_digit_accuracy": 0.0,
+      "multi_token_advantage": 0.0
+    }
+  }
+}

@@ -1,0 +1,2 @@
+model,num_layers,crystallization_layer,crystallization_depth_pct,final_accuracy,early_sparsity,late_sparsity
+deepseek-ai/deepseek-llm-7b-base_combined,31,3,9.67741935483871,0.99875,0.07669126238141741,0.006441917419433594
