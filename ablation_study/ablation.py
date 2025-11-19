@@ -57,8 +57,8 @@ class EmergenceDiscoveryValidator:
         else:
             self.model_dirs = self._auto_detect_model_dirs()
         
-        print(f"📂 Base directory: {self.base_dir}")
-        print(f"📂 Model directories: {len(self.model_dirs)}")
+        print(f" Base directory: {self.base_dir}")
+        print(f" Model directories: {len(self.model_dirs)}")
         for d in self.model_dirs:
             print(f"   - {d.name}")
     
@@ -79,7 +79,7 @@ class EmergenceDiscoveryValidator:
     def load_periodic_tables(self) -> Optional[pd.DataFrame]:
         """Load periodic table CSV files"""
         print("\n" + "="*80)
-        print("📋 LOADING PERIODIC TABLES")
+        print(" LOADING PERIODIC TABLES")
         print("="*80)
         
         all_periodic_tables = []
@@ -89,14 +89,14 @@ class EmergenceDiscoveryValidator:
             periodic_path = analysis_dir / "periodic_table.csv"
             
             if not periodic_path.exists():
-                print(f"⚠️ No periodic table in {model_dir.name}/analysis/")
+                print(f" No periodic table in {model_dir.name}/analysis/")
                 continue
             
             try:
                 df = pd.read_csv(periodic_path)
                 df['model_dir'] = model_dir.name
                 
-                print(f"\n📁 {model_dir.name}:")
+                print(f"\n {model_dir.name}:")
                 print(f"   Rows: {len(df)}")
                 
                 for _, row in df.iterrows():
@@ -120,7 +120,7 @@ class EmergenceDiscoveryValidator:
                 all_periodic_tables.append(df)
                 
             except Exception as e:
-                print(f"❌ Error loading {periodic_path}: {e}")
+                print(f" Error loading {periodic_path}: {e}")
         
         if not all_periodic_tables:
             return None
@@ -132,7 +132,7 @@ class EmergenceDiscoveryValidator:
     def validate_sample_counts(self) -> Dict:
         """Validate sample counts from probing files"""
         print("\n" + "="*80)
-        print("🔍 VALIDATING SAMPLE COUNTS")
+        print(" VALIDATING SAMPLE COUNTS")
         print("="*80)
         
         validation_results = {}
@@ -157,14 +157,14 @@ class EmergenceDiscoveryValidator:
                 except:
                     pass
         
-        print(f"\n📊 TOTAL SAMPLES: {total_samples}")
+        print(f"\n TOTAL SAMPLES: {total_samples}")
         self.sample_counts = validation_results
         return validation_results
     
     def load_all_model_data(self) -> Dict:
         """Load per-dataset emergence files"""
         print("\n" + "="*80)
-        print("📂 LOADING EMERGENCE DATA")
+        print(" LOADING EMERGENCE DATA")
         print("="*80)
         
         all_files = []
@@ -205,9 +205,9 @@ class EmergenceDiscoveryValidator:
                 self.model_data[model_name][dataset_name] = data
                 
             except Exception as e:
-                print(f"❌ Error loading {filepath.name}: {e}")
-        
-        print(f"\n📊 Loaded: {len(self.model_data)} models")
+                print(f" Error loading {filepath.name}: {e}")
+    
+        print(f"\n Loaded: {len(self.model_data)} models")
         return self.model_data
     
     def extract_model_size(self, model_name: str) -> Optional[float]:
@@ -235,7 +235,7 @@ class EmergenceDiscoveryValidator:
         """
         
         print("\n" + "="*80)
-        print("🔬 DISCOVERY 1: UNIVERSAL ABRUPT EMERGENCE")
+        print(" DISCOVERY 1: UNIVERSAL ABRUPT EMERGENCE")
         print("="*80)
         
         emergence_patterns = []
@@ -275,7 +275,7 @@ class EmergenceDiscoveryValidator:
         
         df = pd.DataFrame(emergence_patterns)
         
-        print(f"\n📊 Emergence Patterns:")
+        print(f"\n Emergence Patterns:")
         for _, row in df.iterrows():
             pattern = "ABRUPT" if row['is_abrupt'] else "gradual"
             print(f"  {row['model']:20s} | {row['task']:15s} | {pattern:8s} | Jump: {row['max_jump']:5.1f}%")
@@ -288,7 +288,7 @@ class EmergenceDiscoveryValidator:
         # Binomial test: Is this more than random (50%)?
         p_value = binomtest(num_abrupt, total, 0.5, alternative='greater').pvalue
         
-        print(f"\n📈 Validation:")
+        print(f"\n Validation:")
         print(f"  Abrupt: {num_abrupt}/{total} ({fraction*100:.0f}%)")
         print(f"  Binomial test (H₀: p=0.5): p={p_value:.6f}")
         print(f"  Effect size: {fraction:.3f}")
@@ -307,7 +307,7 @@ class EmergenceDiscoveryValidator:
             evidence = f"Only {num_abrupt}/{total} show abruptness"
             implications = "Mixed emergence patterns suggest task/model-specific dynamics"
         
-        print(f"\n{'✅' if validated else '⚠️'} DISCOVERY 1: {'VALIDATED' if validated else 'NOT VALIDATED'}")
+        print(f"\n{'' if validated else ''} DISCOVERY 1: {'VALIDATED' if validated else 'NOT VALIDATED'}")
         print(f"   Confidence: {confidence}")
         
         result = DiscoveryValidation(
@@ -346,7 +346,7 @@ class EmergenceDiscoveryValidator:
         """
         
         print("\n" + "="*80)
-        print("🔬 DISCOVERY 6: SCALING LAW")
+        print(" DISCOVERY 6: SCALING LAW")
         print("="*80)
         
         model_stats = {}
@@ -377,7 +377,7 @@ class EmergenceDiscoveryValidator:
                 }
         
         if len(model_stats) < 3:
-            print("⚠️ Need at least 3 models for scaling law")
+            print(" Need at least 3 models for scaling law")
             return DiscoveryValidation(
                 discovery_name="Scaling Law",
                 validated=False,
@@ -389,7 +389,7 @@ class EmergenceDiscoveryValidator:
                 details={}
             )
         
-        print(f"\n📊 Data Points:")
+        print(f"\n Data Points:")
         for model, stats in sorted(model_stats.items(), key=lambda x: x[1]['size']):
             print(f"  {stats['size']:.1f}B: {stats['mean_depth']:.1f}% ± {stats['std_depth']:.1f}%")
         
@@ -411,7 +411,7 @@ class EmergenceDiscoveryValidator:
         B_power = slope_power
         r2_power = r_power**2
         
-        print(f"\n📈 POWER LAW: depth = {A_power:.2f} × size^{B_power:.3f}")
+        print(f"\n POWER LAW: depth = {A_power:.2f} × size^{B_power:.3f}")
         print(f"   R² = {r2_power:.4f}")
         print(f"   p = {p_power:.6f}")
         
@@ -423,7 +423,7 @@ class EmergenceDiscoveryValidator:
         
         r2_log = r_log**2
         
-        print(f"\n📈 LOGARITHMIC: depth = {slope_log:.2f} × ln(size) + {intercept_log:.2f}")
+        print(f"\n LOGARITHMIC: depth = {slope_log:.2f} × ln(size) + {intercept_log:.2f}")
         print(f"   R² = {r2_log:.4f}")
         print(f"   p = {p_log:.6f}")
         
@@ -434,7 +434,7 @@ class EmergenceDiscoveryValidator:
         
         r2_linear = r_linear**2
         
-        print(f"\n📈 LINEAR: depth = {slope_linear:.2f} × size + {intercept_linear:.2f}")
+        print(f"\n LINEAR: depth = {slope_linear:.2f} × size + {intercept_linear:.2f}")
         print(f"   R² = {r2_linear:.4f}")
         print(f"   p = {p_linear:.6f}")
         
@@ -448,7 +448,7 @@ class EmergenceDiscoveryValidator:
         
         best_fit = max(fits, key=lambda x: x['r2'])
         
-        print(f"\n🎯 BEST FIT: {best_fit['name'].upper()}")
+        print(f"\n BEST FIT: {best_fit['name'].upper()}")
         print(f"   Formula: {best_fit['formula']}")
         print(f"   R² = {best_fit['r2']:.4f}")
         print(f"   p = {best_fit['p']:.6f}")
@@ -490,7 +490,7 @@ class EmergenceDiscoveryValidator:
             evidence = f"No clear scaling law (best R²={best_fit['r2']:.3f})"
             implications = "Emergence depth may be influenced by factors beyond model size"
         
-        print(f"\n{'✅' if validated else '⚠️'} DISCOVERY 6: {'VALIDATED' if validated else 'NOT VALIDATED'}")
+        print(f"\n{'' if validated else ''} DISCOVERY 6: {'VALIDATED' if validated else 'NOT VALIDATED'}")
         print(f"   Confidence: {confidence}")
         
         result = DiscoveryValidation(
@@ -547,7 +547,7 @@ class EmergenceDiscoveryValidator:
         """
         
         print("\n" + "="*80)
-        print("🔬 DISCOVERY 2: TASK-HIERARCHICAL FORMATION")
+        print(" DISCOVERY 2: TASK-HIERARCHICAL FORMATION")
         print("="*80)
         
         task_depths = {}
@@ -567,7 +567,7 @@ class EmergenceDiscoveryValidator:
                         task_depths[dataset_name] = []
                     task_depths[dataset_name].append(depth_pct)
         
-        print(f"\n📊 Task Emergence Depths:")
+        print(f"\n Task Emergence Depths:")
         task_stats = {}
         for task, depths in sorted(task_depths.items()):
             mean = np.mean(depths)
@@ -594,7 +594,7 @@ class EmergenceDiscoveryValidator:
             from scipy.stats import spearmanr
             rho, p_value = spearmanr(ranks, depths_mean)
             
-            print(f"\n📈 Hierarchy Validation:")
+            print(f"\n Hierarchy Validation:")
             print(f"  Spearman ρ: {rho:.4f}")
             print(f"  p-value: {p_value:.6f}")
             
@@ -633,7 +633,7 @@ class EmergenceDiscoveryValidator:
             evidence = "Insufficient tasks for hierarchy analysis"
             implications = "Need more diverse task types"
         
-        print(f"\n{'✅' if validated else '⚠️'} DISCOVERY 2: {'VALIDATED' if validated else 'NOT VALIDATED'}")
+        print(f"\n{'' if validated else ''} DISCOVERY 2: {'VALIDATED' if validated else 'NOT VALIDATED'}")
         print(f"   Confidence: {confidence}")
         
         result = DiscoveryValidation(
@@ -670,7 +670,7 @@ class EmergenceDiscoveryValidator:
         """
         
         print("\n" + "="*80)
-        print("🔬 DISCOVERY 3: SIZE-DEPENDENT EMERGENCE INVERSION")
+        print(" DISCOVERY 3: SIZE-DEPENDENT EMERGENCE INVERSION")
         print("="*80)
         
         model_stats = {}
@@ -699,7 +699,7 @@ class EmergenceDiscoveryValidator:
                     'std_depth': np.std(depths)
                 }
         
-        print(f"\n📊 Model Emergence by Size:")
+        print(f"\n Model Emergence by Size:")
         for model, stats in sorted(model_stats.items(), key=lambda x: x[1]['size']):
             print(f"  {stats['size']:.1f}B: {stats['mean_depth']:.1f}% ± {stats['std_depth']:.1f}%")
         
@@ -710,7 +710,7 @@ class EmergenceDiscoveryValidator:
             # Correlation
             r, p_value = pearsonr(sizes, depths)
             
-            print(f"\n📈 Size-Depth Relationship:")
+            print(f"\n Size-Depth Relationship:")
             print(f"  Pearson r: {r:.4f}")
             print(f"  p-value: {p_value:.6f}")
             print(f"  Direction: {'NEGATIVE (inversion!)' if r < 0 else 'positive'}")
@@ -750,7 +750,7 @@ class EmergenceDiscoveryValidator:
             evidence = "Need at least 2 models for size comparison"
             implications = "Cannot assess size-dependence"
         
-        print(f"\n{'✅' if validated else '⚠️'} DISCOVERY 3: {'VALIDATED' if validated else 'NOT VALIDATED'}")
+        print(f"\n{'' if validated else ''} DISCOVERY 3: {'VALIDATED' if validated else 'NOT VALIDATED'}")
         print(f"   Confidence: {confidence}")
         
         result = DiscoveryValidation(
@@ -785,7 +785,7 @@ class EmergenceDiscoveryValidator:
         """
         
         print("\n" + "="*80)
-        print("🔬 DISCOVERY 4: BINARY COMPETENCE ACQUISITION")
+        print(" DISCOVERY 4: BINARY COMPETENCE ACQUISITION")
         print("="*80)
         
         final_accs = []
@@ -805,7 +805,7 @@ class EmergenceDiscoveryValidator:
         
         df = pd.DataFrame(final_accs)
         
-        print(f"\n📊 Final Accuracies:")
+        print(f"\n Final Accuracies:")
         for _, row in df.iterrows():
             print(f"  {row['model']:20s} | {row['task']:15s} | {row['accuracy']*100:5.1f}%")
         
@@ -836,7 +836,7 @@ class EmergenceDiscoveryValidator:
             evidence = f"Variable final accuracy (CV={cv:.1f}%)"
             implications = "Partial acquisition or task difficulty variations"
         
-        print(f"\n{'✅' if validated else '⚠️'} DISCOVERY 4: {'VALIDATED' if validated else 'NOT VALIDATED'}")
+        print(f"\n{'' if validated else ''} DISCOVERY 4: {'VALIDATED' if validated else 'NOT VALIDATED'}")
         print(f"   Confidence: {confidence}")
         
         result = DiscoveryValidation(
@@ -875,7 +875,7 @@ class EmergenceDiscoveryValidator:
         """
         
         print("\n" + "="*80)
-        print("🔬 DISCOVERY 5: SIZE-DEPENDENT TRANSITION SHARPNESS")
+        print(" DISCOVERY 5: SIZE-DEPENDENT TRANSITION SHARPNESS")
         print("="*80)
         
         model_jumps = {}
@@ -911,7 +911,7 @@ class EmergenceDiscoveryValidator:
                     'jumps': jumps
                 }
         
-        print(f"\n📊 Jump Magnitudes by Model Size:")
+        print(f"\n Jump Magnitudes by Model Size:")
         for model, stats in sorted(model_jumps.items(), key=lambda x: x[1]['size']):
             print(f"  {stats['size']:.1f}B: mean={stats['mean_jump']:.1f}%, max={stats['max_jump']:.1f}%")
             print(f"         jumps: {[f'{j:.1f}' for j in stats['jumps']]}")
@@ -923,7 +923,7 @@ class EmergenceDiscoveryValidator:
             # Correlation
             r, p_value = pearsonr(sizes, mean_jumps)
             
-            print(f"\n📈 Sharpness-Size Relationship:")
+            print(f"\n Sharpness-Size Relationship:")
             print(f"  Pearson r: {r:.4f}")
             print(f"  p-value: {p_value:.6f}")
             print(f"  Direction: {'POSITIVE (larger = sharper)' if r > 0 else 'negative'}")
@@ -960,7 +960,7 @@ class EmergenceDiscoveryValidator:
             evidence = "Need at least 2 models"
             implications = "Cannot assess sharpness scaling"
         
-        print(f"\n{'✅' if validated else '⚠️'} DISCOVERY 5: {'VALIDATED' if validated else 'NOT VALIDATED'}")
+        print(f"\n{'' if validated else ''} DISCOVERY 5: {'VALIDATED' if validated else 'NOT VALIDATED'}")
         print(f"   Confidence: {confidence}")
         
         result = DiscoveryValidation(
@@ -1031,7 +1031,7 @@ class EmergenceDiscoveryValidator:
                 f.write(f"EVIDENCE:\n{discovery.evidence}\n\n")
                 f.write(f"IMPLICATIONS:\n{discovery.implications}\n")
         
-        print(f"📄 Text report saved to: {report_path}")
+        print(f" Text report saved to: {report_path}")
     
     # ========================================================================
     # RUN ALL
@@ -1050,7 +1050,7 @@ class EmergenceDiscoveryValidator:
         self.load_all_model_data()
         
         if not self.model_data:
-            print("\n❌ No data found")
+            print("\n No data found")
             return
         
         # Validate each discovery
@@ -1067,18 +1067,18 @@ class EmergenceDiscoveryValidator:
         
         # Summary
         print("\n" + "="*80)
-        print("🎯 DISCOVERY VALIDATION COMPLETE")
+        print(" DISCOVERY VALIDATION COMPLETE")
         print("="*80)
         
         validated = sum(1 for d in self.discoveries.values() if d.validated)
         total = len(self.discoveries)
         
-        print(f"\n✅ Validated: {validated}/{total} discoveries")
+        print(f"\n Validated: {validated}/{total} discoveries")
         
-        print("\n🔬 VALIDATED DISCOVERIES:")
+        print("\n VALIDATED DISCOVERIES:")
         for name, discovery in self.discoveries.items():
             if discovery.validated:
-                print(f"\n  ✅ {discovery.discovery_name}")
+                print(f"\n   {discovery.discovery_name}")
                 print(f"     Confidence: {discovery.confidence_level}")
                 print(f"     p = {discovery.p_value:.6f}")
                 print(f"     Effect size = {discovery.effect_size:.4f}")
@@ -1111,7 +1111,7 @@ def main():
     
     validator.validate_all_discoveries()
     
-    print("\n✅ COMPLETE!")
+    print("\nCOMPLETE!")
 
 
 if __name__ == "__main__":
