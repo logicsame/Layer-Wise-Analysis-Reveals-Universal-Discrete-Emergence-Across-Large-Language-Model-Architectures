@@ -5,7 +5,8 @@ import json
 
 
 def main():
-    """Main research pipeline - FIXED TO ACCUMULATE ALL DATASETS"""
+    """Main research pipeline 
+    NOTE: Requires HuggingFace authentication for some models and requires sufficient GPU memory atleast 48gb."""
     from huggingface_hub import login
     login(token="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")
     
