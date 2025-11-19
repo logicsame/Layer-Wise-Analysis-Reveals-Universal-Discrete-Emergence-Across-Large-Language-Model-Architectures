@@ -1,0 +1,190 @@
+{
+  "layer_statistics": [
+    {
+      "layer": 0,
+      "accuracy": 0.0,
+      "confidence": 7.928162813186645e-06,
+      "act_mean": 1.929640769958496e-05,
+      "act_std": 0.004817752838134765,
+      "sparsity": 0.9705975341796875
+    },
+    {
+      "layer": 1,
+      "accuracy": 0.0,
+      "confidence": 8.3160400390625e-06,
+      "act_mean": 1.6628950834274293e-05,
+      "act_std": 0.014422798156738281,
+      "sparsity": 0.57554443359375
+    },
+    {
+      "layer": 2,
+      "accuracy": 0.0,
+      "confidence": 8.467733860015869e-06,
+      "act_mean": 8.178770542144776e-05,
+      "act_std": 0.019679679870605468,
+      "sparsity": 0.4271746826171875
+    },
+    {
+      "layer": 3,
+      "accuracy": 0.9975,
+      "confidence": 8.718222379684449e-06,
+      "act_mean": 0.00047318309545516966,
+      "act_std": 0.02605522155761719,
+      "sparsity": 0.3294122314453125
+    },
+    {
+      "layer": 4,
+      "accuracy": 0.5825,
+      "confidence": 8.701682090759278e-06,
+      "act_mean": 0.0006886765360832215,
+      "act_std": 0.031431846618652344,
+      "sparsity": 0.2630828857421875
+    },
+    {
+      "layer": 5,
+      "accuracy": 0.3825,
+      "confidence": 9.141713380813599e-06,
+      "act_mean": 0.00016666010022163392,
+      "act_std": 0.043015060424804685,
+      "sparsity": 0.2034368896484375
+    },
+    {
+      "layer": 6,
+      "accuracy": 0.485,
+      "confidence": 9.414255619049072e-06,
+      "act_mean": 0.0005066034197807312,
+      "act_std": 0.049590835571289064,
+      "sparsity": 0.1755230712890625
+    },
+    {
+      "layer": 7,
+      "accuracy": 0.03,
+      "confidence": 1.0159313678741455e-05,
+      "act_mean": 0.00015294864773750304,
+      "act_std": 0.0554449462890625,
+      "sparsity": 0.156790771484375
+    },
+    {
+      "layer": 8,
+      "accuracy": 0.1775,
+      "confidence": 1.0197162628173829e-05,
+      "act_mean": 0.0006933449208736419,
+      "act_std": 0.06080299377441406,
+      "sparsity": 0.14555419921875
+    },
+    {
+      "layer": 9,
+      "accuracy": 0.0675,
+      "confidence": 1.0549426078796387e-05,
+      "act_mean": 0.0002728167176246643,
+      "act_std": 0.07243560791015625,
+      "sparsity": 0.118074951171875
+    },
+    {
+      "layer": 10,
+      "accuracy": 0.4625,
+      "confidence": 1.0455101728439331e-05,
+      "act_mean": 8.00769031047821e-05,
+      "act_std": 0.07801528930664063,
+      "sparsity": 0.1133148193359375
+    },
+    {
+      "layer": 11,
+      "accuracy": 0.9925,
+      "confidence": 1.1967718601226806e-05,
+      "act_mean": 0.0007027080655097962,
+      "act_std": 0.09589126586914062,
+      "sparsity": 0.0940289306640625
+    },
+    {
+      "layer": 12,
+      "accuracy": 0.9775,
+      "confidence": 1.2775659561157227e-05,
+      "act_mean": 0.0001342262327671051,
+      "act_std": 0.11275680541992188,
+      "sparsity": 0.086807861328125
+    },
+    {
+      "layer": 13,
+      "accuracy": 0.9925,
+      "confidence": 1.5786439180374147e-05,
+      "act_mean": -0.0008425311744213104,
+      "act_std": 0.13679885864257812,
+      "sparsity": 0.0753741455078125
+    },
+    {
+      "layer": 14,
+      "accuracy": 0.9925,
+      "confidence": 1.799166202545166e-05,
+      "act_mean": -0.001059141755104065,
+      "act_std": 0.1509063720703125,
+      "sparsity": 0.06764404296875
+    },
+    {
+      "layer": 15,
+      "accuracy": 0.9975,
+      "confidence": 1.96683406829834e-05,
+      "act_mean": -0.0019505959749221802,
+      "act_std": 0.1652398681640625,
+      "sparsity": 0.0631500244140625
+    },
+    {
+      "layer": 16,
+      "accuracy": 0.9975,
+      "confidence": 2.5977492332458495e-05,
+      "act_mean": -0.0009377676248550415,
+      "act_std": 0.19261474609375,
+      "sparsity": 0.0548919677734375
+    },
+    {
+      "layer": 17,
+      "accuracy": 0.9975,
+      "confidence": 3.285542130470276e-05,
+      "act_mean": -0.0013554413616657258,
+      "act_std": 0.22173187255859375,
+      "sparsity": 0.0506524658203125
+    },
+    {
+      "layer": 18,
+      "accuracy": 0.9975,
+      "confidence": 4.706978797912598e-05,
+      "act_mean": -0.0026805725693702697,
+      "act_std": 0.2518218994140625,
+      "sparsity": 0.046158447265625
+    },
+    {
+      "layer": 19,
+      "accuracy": 1.0,
+      "confidence": 0.00010263651609420776,
+      "act_mean": -0.004639628082513809,
+      "act_std": 0.3239031982421875,
+      "sparsity": 0.0379852294921875
+    },
+    {
+      "layer": 20,
+      "accuracy": 0.995,
+      "confidence": 0.005183175206184387,
+      "act_mean": -0.006887896806001663,
+      "act_std": 1.76542724609375,
+      "sparsity": 0.0047821044921875
+    }
+  ],
+  "crystallization_layer": 19,
+  "crystallization_method": "max_accuracy_fallback",
+  "encoding_emergence_layer": null,
+  "expression_emergence_layer": 3,
+  "num_layers": 21,
+  "overall_accuracy": 0.995,
+  "capability_evolution": {
+    "early_accuracy": 0.316,
+    "mid_accuracy": 0.2285,
+    "late_accuracy": 0.9456818181818182,
+    "early_confidence": 8.426368236541749e-06,
+    "late_confidence": 0.0004982144859704105
+  },
+  "activation_evolution": {
+    "early_sparsity": 0.513162353515625,
+    "late_sparsity": 0.06316273082386363,
+    "activation_growth": 16.47888912512114
+  }
+}

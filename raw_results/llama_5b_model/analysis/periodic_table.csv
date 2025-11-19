@@ -1,0 +1,2 @@
+model,num_layers,crystallization_layer,crystallization_depth_pct,final_accuracy,early_sparsity,late_sparsity
+prithivMLmods/Llama-3.1-5B-Instruct_combined,21,19,90.47619047619048,0.99875,0.5079100036621094,0.06476493141867898

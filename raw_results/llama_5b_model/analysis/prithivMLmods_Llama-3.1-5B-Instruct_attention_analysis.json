@@ -1,0 +1,169 @@
+{
+  "layer_stats": [
+    {
+      "layer": 0,
+      "avg_math_attention": 0.0,
+      "avg_reasoning_attention": 0.009461755752563477,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 1,
+      "avg_math_attention": 0.0,
+      "avg_reasoning_attention": 0.004594478607177734,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 2,
+      "avg_math_attention": 0.0,
+      "avg_reasoning_attention": 0.001967642307281494,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 3,
+      "avg_math_attention": 0.0009207135438919068,
+      "avg_reasoning_attention": 0.0029149961471557615,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 4,
+      "avg_math_attention": 0.000822870135307312,
+      "avg_reasoning_attention": 0.0030420923233032224,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 5,
+      "avg_math_attention": 0.0012208807468414306,
+      "avg_reasoning_attention": 0.004136323928833008,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 6,
+      "avg_math_attention": 0.0010862243175506592,
+      "avg_reasoning_attention": 0.004859938621520996,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 7,
+      "avg_math_attention": 0.0011721622943878173,
+      "avg_reasoning_attention": 0.006081457138061523,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 8,
+      "avg_math_attention": 0.0010998070240020752,
+      "avg_reasoning_attention": 0.00590113639831543,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 9,
+      "avg_math_attention": 0.0012832438945770263,
+      "avg_reasoning_attention": 0.004868631362915039,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 10,
+      "avg_math_attention": 0.000948786735534668,
+      "avg_reasoning_attention": 0.004070305824279785,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 11,
+      "avg_math_attention": 0.0006348839402198791,
+      "avg_reasoning_attention": 0.005015726089477539,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 12,
+      "avg_math_attention": 0.0007398736476898194,
+      "avg_reasoning_attention": 0.003888378143310547,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 13,
+      "avg_math_attention": 0.00025050878524780274,
+      "avg_reasoning_attention": 0.002144014835357666,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 14,
+      "avg_math_attention": 0.0005488568544387818,
+      "avg_reasoning_attention": 0.0035187578201293945,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 15,
+      "avg_math_attention": 0.0004063683748245239,
+      "avg_reasoning_attention": 0.0026345419883728027,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 16,
+      "avg_math_attention": 0.0006194567680358887,
+      "avg_reasoning_attention": 0.0037827992439270017,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 17,
+      "avg_math_attention": 0.0003746768832206726,
+      "avg_reasoning_attention": 0.002303062677383423,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 18,
+      "avg_math_attention": 0.0003138431906700134,
+      "avg_reasoning_attention": 0.0020716047286987306,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 19,
+      "avg_math_attention": 0.00036357223987579343,
+      "avg_reasoning_attention": 0.001583610773086548,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    }
+  ],
+  "head_specialization_by_layer": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": [],
+    "16": [],
+    "17": [],
+    "18": [],
+    "19": []
+  },
+  "emergence_layer": 9,
+  "model_name": "prithivMLmods/Llama-3.1-5B-Instruct",
+  "num_samples_analyzed": 400
+}
