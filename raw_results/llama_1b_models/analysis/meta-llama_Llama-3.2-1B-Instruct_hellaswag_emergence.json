@@ -1,0 +1,158 @@
+{
+  "layer_statistics": [
+    {
+      "layer": 0,
+      "accuracy": 0.0,
+      "confidence": 1.8596649169921875e-05,
+      "act_mean": -0.0002903938293457031,
+      "act_std": 0.0189056396484375,
+      "sparsity": 0.4052734375
+    },
+    {
+      "layer": 1,
+      "accuracy": 0.0,
+      "confidence": 1.1160820722579956e-05,
+      "act_mean": 0.0003568720817565918,
+      "act_std": 0.02834869384765625,
+      "sparsity": 0.3707373046875
+    },
+    {
+      "layer": 2,
+      "accuracy": 0.0,
+      "confidence": 9.925812482833863e-06,
+      "act_mean": 0.0009066128730773926,
+      "act_std": 0.042027130126953124,
+      "sparsity": 0.22033203125
+    },
+    {
+      "layer": 3,
+      "accuracy": 0.955,
+      "confidence": 9.383708238601685e-06,
+      "act_mean": 0.0010649681091308594,
+      "act_std": 0.053871841430664064,
+      "sparsity": 0.172293701171875
+    },
+    {
+      "layer": 4,
+      "accuracy": 0.9175,
+      "confidence": 1.0002553462982178e-05,
+      "act_mean": 0.00207470178604126,
+      "act_std": 0.07125656127929687,
+      "sparsity": 0.123076171875
+    },
+    {
+      "layer": 5,
+      "accuracy": 1.0,
+      "confidence": 1.0232925415039063e-05,
+      "act_mean": 0.002404940128326416,
+      "act_std": 0.07631332397460938,
+      "sparsity": 0.116524658203125
+    },
+    {
+      "layer": 6,
+      "accuracy": 1.0,
+      "confidence": 1.0461211204528808e-05,
+      "act_mean": 0.001992534399032593,
+      "act_std": 0.0812451171875,
+      "sparsity": 0.107469482421875
+    },
+    {
+      "layer": 7,
+      "accuracy": 1.0,
+      "confidence": 1.071631908416748e-05,
+      "act_mean": 0.0002258269488811493,
+      "act_std": 0.09152557373046875,
+      "sparsity": 0.097130126953125
+    },
+    {
+      "layer": 8,
+      "accuracy": 1.0,
+      "confidence": 1.1214017868041991e-05,
+      "act_mean": 0.0007792313396930695,
+      "act_std": 0.10171249389648437,
+      "sparsity": 0.090692138671875
+    },
+    {
+      "layer": 9,
+      "accuracy": 1.0,
+      "confidence": 1.2276023626327515e-05,
+      "act_mean": 0.004703431129455566,
+      "act_std": 0.12677703857421874,
+      "sparsity": 0.06887451171875
+    },
+    {
+      "layer": 10,
+      "accuracy": 0.9375,
+      "confidence": 1.2611299753189088e-05,
+      "act_mean": 0.0024974894523620604,
+      "act_std": 0.13763671875,
+      "sparsity": 0.066077880859375
+    },
+    {
+      "layer": 11,
+      "accuracy": 0.9125,
+      "confidence": 1.5640556812286375e-05,
+      "act_mean": -0.0024102497100830077,
+      "act_std": 0.16165924072265625,
+      "sparsity": 0.060098876953125
+    },
+    {
+      "layer": 12,
+      "accuracy": 0.8825,
+      "confidence": 1.7541348934173585e-05,
+      "act_mean": -0.007239046096801757,
+      "act_std": 0.19670379638671875,
+      "sparsity": 0.0538232421875
+    },
+    {
+      "layer": 13,
+      "accuracy": 1.0,
+      "confidence": 2.6022344827651976e-05,
+      "act_mean": -0.01032618522644043,
+      "act_std": 0.2451849365234375,
+      "sparsity": 0.040023193359375
+    },
+    {
+      "layer": 14,
+      "accuracy": 1.0,
+      "confidence": 5.01599907875061e-05,
+      "act_mean": -0.014690113067626954,
+      "act_std": 0.3018255615234375,
+      "sparsity": 0.03136962890625
+    },
+    {
+      "layer": 15,
+      "accuracy": 1.0,
+      "confidence": 0.0006951215863227844,
+      "act_mean": -0.009325456619262696,
+      "act_std": 0.37676513671875,
+      "sparsity": 0.0263818359375
+    },
+    {
+      "layer": 16,
+      "accuracy": 1.0,
+      "confidence": 0.32255317687988283,
+      "act_mean": -0.03352642059326172,
+      "act_std": 2.2097216796875,
+      "sparsity": 0.0038525390625
+    }
+  ],
+  "crystallization_layer": 5,
+  "crystallization_method": "max_accuracy_fallback",
+  "encoding_emergence_layer": 3,
+  "expression_emergence_layer": 3,
+  "num_layers": 17,
+  "overall_accuracy": 1.0,
+  "capability_evolution": {
+    "early_accuracy": 0.23875,
+    "mid_accuracy": 0.979375,
+    "late_accuracy": 0.9702777777777778,
+    "early_confidence": 1.2266747653484344e-05,
+    "late_confidence": 0.03593264044986831
+  },
+  "activation_evolution": {
+    "early_sparsity": 0.29215911865234373,
+    "late_sparsity": 0.04902153862847222,
+    "activation_growth": 11.977793399214583
+  }
+}

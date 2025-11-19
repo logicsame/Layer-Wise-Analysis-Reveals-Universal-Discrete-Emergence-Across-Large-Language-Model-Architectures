@@ -1,0 +1,137 @@
+{
+  "layer_stats": [
+    {
+      "layer": 0,
+      "avg_math_attention": 0.0,
+      "avg_reasoning_attention": 0.0059243059158325196,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 1,
+      "avg_math_attention": 0.0,
+      "avg_reasoning_attention": 0.002549619674682617,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 2,
+      "avg_math_attention": 0.0,
+      "avg_reasoning_attention": 0.003244655132293701,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 3,
+      "avg_math_attention": 0.0010244220495224,
+      "avg_reasoning_attention": 0.002914407253265381,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 4,
+      "avg_math_attention": 0.0012499755620956421,
+      "avg_reasoning_attention": 0.004636993408203125,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 5,
+      "avg_math_attention": 0.0014173847436904907,
+      "avg_reasoning_attention": 0.0055416059494018555,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 6,
+      "avg_math_attention": 0.0013029831647872925,
+      "avg_reasoning_attention": 0.006355504989624023,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 7,
+      "avg_math_attention": 0.0010926938056945801,
+      "avg_reasoning_attention": 0.006900467872619629,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 8,
+      "avg_math_attention": 0.0011191576719284057,
+      "avg_reasoning_attention": 0.005197739601135254,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 9,
+      "avg_math_attention": 0.0011582320928573608,
+      "avg_reasoning_attention": 0.0059362220764160156,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 10,
+      "avg_math_attention": 0.0005987906455993653,
+      "avg_reasoning_attention": 0.0042019844055175785,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 11,
+      "avg_math_attention": 0.0005478727817535401,
+      "avg_reasoning_attention": 0.0030381131172180177,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 12,
+      "avg_math_attention": 0.0003567178547382355,
+      "avg_reasoning_attention": 0.003975896835327148,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 13,
+      "avg_math_attention": 0.0005509442090988159,
+      "avg_reasoning_attention": 0.0031993746757507323,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 14,
+      "avg_math_attention": 0.0004223474860191345,
+      "avg_reasoning_attention": 0.004362306594848633,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    },
+    {
+      "layer": 15,
+      "avg_math_attention": 0.0005631852149963379,
+      "avg_reasoning_attention": 0.003633866310119629,
+      "num_consistent_specialized_heads": 0,
+      "consistent_specialized_heads": []
+    }
+  ],
+  "head_specialization_by_layer": {
+    "0": [],
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [],
+    "5": [],
+    "6": [],
+    "7": [],
+    "8": [],
+    "9": [],
+    "10": [],
+    "11": [],
+    "12": [],
+    "13": [],
+    "14": [],
+    "15": []
+  },
+  "emergence_layer": 5,
+  "model_name": "meta-llama/Llama-3.2-1B-Instruct",
+  "num_samples_analyzed": 400
+}

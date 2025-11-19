@@ -1,0 +1,104 @@
+{
+  "0": {
+    "expression_accuracy": 0.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "1": {
+    "expression_accuracy": 0.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "2": {
+    "expression_accuracy": 0.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "3": {
+    "expression_accuracy": 0.955,
+    "encoding_accuracy": 0.9375,
+    "gap": -0.01749999999999996,
+    "n_samples": 400
+  },
+  "4": {
+    "expression_accuracy": 0.9175,
+    "encoding_accuracy": 0.9075,
+    "gap": -0.010000000000000009,
+    "n_samples": 400
+  },
+  "5": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "6": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "7": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "8": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "9": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "10": {
+    "expression_accuracy": 0.9375,
+    "encoding_accuracy": 0.9049999999999999,
+    "gap": -0.032500000000000084,
+    "n_samples": 400
+  },
+  "11": {
+    "expression_accuracy": 0.9125,
+    "encoding_accuracy": 0.8825000000000001,
+    "gap": -0.029999999999999916,
+    "n_samples": 400
+  },
+  "12": {
+    "expression_accuracy": 0.8825,
+    "encoding_accuracy": 0.82,
+    "gap": -0.0625,
+    "n_samples": 400
+  },
+  "13": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "14": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "15": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  },
+  "16": {
+    "expression_accuracy": 1.0,
+    "encoding_accuracy": null,
+    "gap": null,
+    "n_samples": 400
+  }
+}
