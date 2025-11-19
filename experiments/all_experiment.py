@@ -23,7 +23,6 @@ def main():
         "meta-llama/Llama-3.2-3B-Instruct", 
         "prithivMLmods/Llama-3.1-5B-Instruct",
         "meta-llama/Llama-2-13b-hf"
-        "google/gemma-2-2b-it",
         "microsoft/phi-1_5",
         "microsoft/phi-1",
         "deepseek-ai/deepseek-llm-7b-base"
